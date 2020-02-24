@@ -1,6 +1,8 @@
-## Serial Monitor Playground
+## Arduino Serial Monitor Playground
 
-Experiment with Arduino's Serial output.
+This is the perfect place to paste some Arduino code, run it and see the output. 
 
-Click "Run Code" to compile and run the code on a Virtual Arduino board.
+Click <strong>Run Code</strong> to compile, and you will see the "Serial Monitor" with
+all the prints from the code.
 
+<small>Built with <span style="color:red">♥</span> for the Arduino community.</small>
