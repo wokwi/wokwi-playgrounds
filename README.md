@@ -9,7 +9,7 @@ This repository hosts the code playgrounds on wokwi.com, e.g.:
 * [Serial Playground](https://wokwi.com/playground/serial?utm_source=github&utm_medium=social&utm_campaign=wokwi-playgrounds)
 * [TaskScheduler](https://wokwi.com/playground/task-scheduler?utm_source=github&utm_medium=social&utm_campaign=wokwi-playgrounds)
 
-# Directory structure
+## Directory structure
 
 Each subdirectory is a different playground, and contains the following files:
 
@@ -17,6 +17,14 @@ Each subdirectory is a different playground, and contains the following files:
 * `sketch.ino` - The arduino code for the playground
 * `lesson.json` - File that describes the lesson. You can add your name there, e.g.: `{"author": "Ariella Eliassaf"}`. This file must be present for the lesson to be recognized by Wokwi.
 
+## Live editing
+
+If you wish to tinker with the markdown / hardware of any of the playgrounds, you can do so by going to
+the live playground on wokwi.com and adding `?beta-editor=yeah` at the end of the playground URL. For instance:
+
+[https://wokwi.com/playground/blink?beta-editor=yeah](https://wokwi.com/playground/blink?beta-editor=yeah&utm_source=github&utm_medium=social&utm_campaign=wokwi-playgrounds)
+
+This will open the [blink](blink/lesson.md) playground in live editing mode.
 
 # License
 
