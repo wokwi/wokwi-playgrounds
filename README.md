@@ -1,9 +1,10 @@
 # Wokwi Playground Repository
 
-This repository hosts the code playgrounds on wokwi.com, e.g.:
+This repository hosts the code playgrounds on [wokwi.com](https://wokwi.com), e.g.:
 
 * [Blink](https://wokwi.com/playground/blink?utm_source=github&utm_medium=social&utm_campaign=wokwi-playgrounds)
 * [Blink (without delay)](https://wokwi.com/playground/blink-without-delay-3-leds?utm_source=github&utm_medium=social&utm_campaign=wokwi-playgrounds)
+* [Dice Roller](https://wokwi.com/playground/dice-roller?utm_source=github&utm_medium=social&utm_campaign=wokwi-playgrounds)
 * [LCD1602 I2C](https://wokwi.com/playground/lcd1602-i2c?utm_source=github&utm_medium=social&utm_campaign=wokwi-playgrounds)
 * [Neopixel strip (beta)](https://wokwi.com/playground/neopixel-strip?utm_source=github&utm_medium=social&utm_campaign=wokwi-playgrounds)
 * [Serial Playground](https://wokwi.com/playground/serial?utm_source=github&utm_medium=social&utm_campaign=wokwi-playgrounds)
