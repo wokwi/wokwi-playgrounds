@@ -1,0 +1,13 @@
+{
+  "title": "Alarm Clock",
+  "thumbnail": "thumbnail.png",
+  "files": [
+    "AlarmTone.cpp",
+    "AlarmTone.h",
+    "Button.cpp",
+    "Button.h",
+    "config.h",
+    "Clock.cpp",
+    "Clock.h"
+  ]
+}

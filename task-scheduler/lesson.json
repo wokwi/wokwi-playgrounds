@@ -1,3 +1,5 @@
 {
-  "coverImage": "https://cdn1.wokwi.com/covers/task-scheduler.png"
+  "title": "Task Scheduler Playground",
+  "thumbnail": "thumbnail.png",
+  "coverImage": "https://storage.googleapis.com/wokwi-blog-assets/covers/task-scheduler.png"
 }

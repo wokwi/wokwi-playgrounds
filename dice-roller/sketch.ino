@@ -15,51 +15,19 @@ void setup() {
 }
 
 void displayNumber(const byte pins[], byte number) {
-  byte states = pins[0];
-  for (byte i = 0; i < 7; i++) {
-    digitalWrite(pins[i], LOW);
-  }
-  switch (number) {
-    case 1:
-      digitalWrite(pins[3], HIGH);
-      break;
-    case 2:
-      digitalWrite(pins[0], HIGH);
-      digitalWrite(pins[6], HIGH);
-      break;
-    case 3:
-      digitalWrite(pins[0], HIGH);
-      digitalWrite(pins[3], HIGH);
-      digitalWrite(pins[6], HIGH);
-      break;
-    case 4:
-      digitalWrite(pins[0], HIGH);
-      digitalWrite(pins[1], HIGH);
-      digitalWrite(pins[5], HIGH);
-      digitalWrite(pins[6], HIGH);
-      break;
-    case 5:
-      digitalWrite(pins[0], HIGH);
-      digitalWrite(pins[1], HIGH);
-      digitalWrite(pins[3], HIGH);
-      digitalWrite(pins[5], HIGH);
-      digitalWrite(pins[6], HIGH);
-      break;
-    case 6:
-      digitalWrite(pins[0], HIGH);
-      digitalWrite(pins[1], HIGH);
-      digitalWrite(pins[2], HIGH);
-      digitalWrite(pins[4], HIGH);
-      digitalWrite(pins[5], HIGH);
-      digitalWrite(pins[6], HIGH);
-      break;
-  }
+  digitalWrite(pins[0], number > 1 ? HIGH : LOW); // top-left
+  digitalWrite(pins[1], number > 3 ? HIGH : LOW); // top-right
+  digitalWrite(pins[2], number == 6 ? HIGH : LOW); // middle-left
+  digitalWrite(pins[3], number % 2 == 1 ? HIGH : LOW); // center
+  digitalWrite(pins[4], number == 6 ? HIGH : LOW); // middle-right
+  digitalWrite(pins[5], number > 3 ? HIGH : LOW); // bottom-left
+  digitalWrite(pins[6], number > 1 ? HIGH : LOW); // bottom-right
 }
 
 bool randomReady = false;
 
 void loop() {
-  bool buttonPressed = !digitalRead(BUTTON_PIN);
+  bool buttonPressed = digitalRead(BUTTON_PIN) == LOW;
   if (!randomReady && buttonPressed) {
     // Use the time until the first button press
     // to initialize the random number generator

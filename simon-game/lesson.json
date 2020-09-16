@@ -1,0 +1,5 @@
+{
+  "title": "Simon Game",
+  "thumbnail": "thumbnail.png",
+  "files": ["pitches.h"]
+}
