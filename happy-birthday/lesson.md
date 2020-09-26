@@ -10,5 +10,5 @@
   </div>
   <wokwi-buzzer pin="6"></wokwi-buzzer>
   <span style="height: 16px"></span>
-  <wokwi-ssd1306></wokwi-ssd1306>
+  <wokwi-ssd1306 i2c-address="0x3d"></wokwi-ssd1306>
 </div>
