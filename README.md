@@ -1,3 +1,7 @@
+# Deprecation notice
+
+This repository is deprecated, as it is now possible to [create projects directly on Wokwi.com](https://wokwi.com/arduino/new).
+
 # Wokwi Playground Repository
 
 This repository hosts the code playgrounds on [wokwi.com](https://wokwi.com), e.g.:
